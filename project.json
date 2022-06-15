@@ -58,12 +58,6 @@
         "testCaseId": "a7620d56-dbd0-4bdb-b2a3-9993b111589f",
         "testCaseType": "TestCase",
         "fileName": "Login\\TC_003_Login_Functionality.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "79f23bf4-e009-4f9f-8fa5-7b8dfef37720",
-        "testCaseType": "TestCase",
-        "fileName": "Login\\TC_004_Login_Functionality.xaml"
       }
     ],
     "modernBehavior": true
