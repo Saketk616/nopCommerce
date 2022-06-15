@@ -1,0 +1,78 @@
+{
+  "name": "nopCommerce",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fa8e4833-7bb5-4fef-b77a-e39f0bb2ff86",
+        "testCaseType": "TestCase",
+        "fileName": "Login\\TC_001_Login_Functionality.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "703bd7be-3a1e-47a0-afe1-ad560ae1b066",
+        "testCaseType": "TestCase",
+        "fileName": "Login\\TC_002_Login_Functionality.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a7620d56-dbd0-4bdb-b2a3-9993b111589f",
+        "testCaseType": "TestCase",
+        "fileName": "Login\\TC_003_Login_Functionality.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f911dc6e-8073-4f1f-8f0e-e779e805bf82",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

@@ -1,0 +1,128 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="885.6,1340" sap2010:WorkflowViewState.IdRef="Login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Login_Functionality" sap:VirtualizedContainerService.HintSize="475.2,1276" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Your store. Login" sap:VirtualizedContainerService.HintSize="433.6,1183.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="73e09ce5-e516-4bdf-9d16-51b12248477e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,966.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="73e09ce5-e516-4bdf-9d16-51b12248477e" Text="admin@yourstore.com" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://admin-demo.nopcommerce.com/login" DesignTimeRectangle="732, 277, 450, 50" ElementType="InputBox" FriendlyName="'admin@yourstore.com'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='email valid' aaname='Email:' /&gt;" Guid="4a4b3978-1001-4e6b-9b7e-09b93e774710" ImageBase64="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" InformativeScreenshot="fecb56b9799dd43e67062cfca9b42e21.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Your store. Login' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="219, 292, 500, 21" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' check:innerText='Email:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAfgAAAAZCAYAAADdRzzsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKXSURBVHhe7dzBS9tgHIfx/XE5BaQgFITAsAxWBgEPvawMZGAvejHC6EUKw4G5tCd3qTAEiSAZDAo7VgY9FQZBEAo9ffe2ec1M7SpqcBCewueQ+HuT3B7SxL6S/UynUwAAUBIEHgCAEiLwAACUEIEHAKCECDwAACVE4AEAKCECDwBATqzAceSs5Ks3Wra2eKOunztfuh0oXphbROABAMixgd9sKjgI/iFU/HvZ2uIReAAACmEDvx8v+dv/R+ABAHiSxwR+pJ4/m400vmjLX3dNfB25my31fiaaToY62amp4poZtyL/k5mb3Fk/GSvqNFWvpuscx1XFa6h9Mc5muIMHAKAQTwj8RlXVtbr2un1FXw/V2DD71pva3nLlfQzVP++rt1uXa45bOx7atYnOdkzYXU/Nzomi80j9bjtd61TVHqTneDjw9nr9nkbZPgIPAMACG8xVspjawJsAh7/+HuPmW2s+V9mNlGTHHerotZnd6mk82x731TJ37n53lK2buwpVM2tv9xN4AAAKYYO56iW749iG2wb+bZiL6/QymAd+7+LOPiPavR/i+9Lze5/TO/2HA78cgQcAIMcG/jFf0S9G2wY+uLyzz4j3l8xObpRcDRSdn+jooKXG7fN4e34CDwBAIV4q8IkGnfS5/GzWXffkvWtq70ugBoEHAKBoLxT4H21VzIzfGeTfrL8+U4vAAwBQtJcJfBrqeu7lvJnktJXe1RN4AACKZAO/8pfsAoXfEzP7jDv4QVtVM+N62wpPo/kz+MMPNbmuazwm8PZ6F66BwAMAkGOD+YD039ie95Ld7Mdxspfq1qqq74SKR2P135vtN6GGZobAAwCADIEHAKCECDwAACVE4AEAKCECDwBACRF4AABKZ6o/7awUsc9KjlwAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="73e09ce5-e516-4bdf-9d16-51b12248477e" Text="admin" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://admin-demo.nopcommerce.com/login" DesignTimeRectangle="732, 346, 450, 50" ElementType="InputBoxPassword" FriendlyName="'admin'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='password' aaname='Password:' /&gt;" Guid="22ae8282-8bd3-478d-acc9-06ba866740c6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAcYAAAA2CAYAAABdhzmEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFySURBVHhe7dgxTgJhFIVRdz0xExMKWuhsabTUyAYscQNaUMgCsLQgmeo5BKPXiFgwFZyT3Ob9mfpL5qLrujIzM7PdhNHMzCwmjGZmZrGvMK5WKzMzs7Pd3jACwDkSRgAIwggAQRgBIAgjAARhBIAgjAAQhBEAgjACQBBGAAjCCABBGAEgCCMABGEEgCCMABCEEQCCMAJAEEYACMIIAEEYASAIIwAEYQSAMEgY14tZjdummnZcs8X681q1Wc5rctXfL9uaPCxr88+9f6j5tK2maaqdzmv5/cH+OwAM7Pgwvj/VdR+sbbR2m9Tj2/bhte5GeW/q5uXQvX+5H/24N7fPB+8AMDRhBIBwfBh7fqUCcCoGCSMAnAphBIAgjAAQhBEAgjACQBBGAAjCCABBGAEgCCMABGEEgCCMABCEEQCCMAJAEEYACMIIAEEYASAIIwAEYQSAIIwAEIQRAIIwAkAQRgAIf4bRzMzsXPcrjGZmZtbVBxiEG8TYoNISAAAAAElFTkSuQmCC" InformativeScreenshot="d33bfa4be439d85fc285b8674a32fa9e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Your store. Login' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="219, 361, 500, 21" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password:' tag='LABEL' type='' class='' check:innerText='Password:' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Log in'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73e09ce5-e516-4bdf-9d16-51b12248477e" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://admin-demo.nopcommerce.com/login" DesignTimeRectangle="882, 526, 175, 47" ElementType="Button" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='button-1 login-button' aaname='Log in' check:innerText='LOG IN' /&gt;" Guid="6fc2f713-6571-480e-8fe7-4802bae071ec" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALMAAAAzCAYAAADcpDkrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOJSURBVHhe7ZrLTttAFIb7fLxFHqAPwIp9V6y64gHYsKErLyKkSikCCRoJKoQEQgShgqIGkTixHV9OZ8Y+wXYmccJF1Zn+v/Qt7DljE/F5PB77EyGII4HMiDOBzIgzmcm8sf8MgEg4kBmIhwOZgXg4kBmIhwOZgXg4kBmIhwOZgXg4kBmIhwOZgXg4kBmIhwOZgXg4kBmIhwOZgXg4kBmIhwOZgXg4kBmIh/P/yNxLze/0+4G93UZ7Qru/ExpMTdc8mTrGKCbvzLf3KWidhNR5ysjPT5tH9w0S6lxOqGXpM8d5TL7qVvmbi32UpuQdlmrL2Po5DAcyL6B1MqWiC1GU0sXjlA7uYuoOM4qUlDqDfkif5/qO6Ot9SlFeQv44oeO7ou9TSn7R13+OaGuub41lMqtE6hjWiwIy2wudYR2Z2xFdmfKMrm4so+j3kI4DczgaPEwqbZu3hchRQnsno0qboR1Qp7Dx6trSXqZBZh3rMSCzvdAZ1pB5p58Pnw/3Y2u7YSZ8Sgez231IF3G+r3NUqq3zM6ZBlqkLIbS3M0tk9tX8xUgdJ7TbLvVZ1M9hOJB5jkLILKFvdUlqzEl/nZhtWnT7X5dlMqt9fP5oEFbPB5nthc6wqsynatTUheOYNm3tZS6TfEoxnJrtmdx3DdOHVWmQWU9ZuubhNKPur9I5IbO90BlWlbkQgUa5oEvh2kJ8b6Q3lFjnltrX0CSz2m7xBTWNaYfvJJDZXugM/1RmHkHrScmr1NVYQWa9erJrbiX5PjPdgMz2QmdYVeazQlB/2jzvXTDN6PXqtRPy/qTUG76QL9G9h8yK0uqLuZAgs73QGT7gAXD70f4AqB/I6rVVeKR+J5kVLXXufElQTTcgs73QGVaW+WWEra8hV3jL0twHyLyxPyZvqI+p2vTIb61xEw5ktqFXCcww9xEvTSa0py4WU/OuMisOS28tVSCzq/B/OarOXV9IyDst1R+pkbd4aIvC0uvs0ivpRa+zv9wkRjgd/Tq7ez/fV39b0b1u+EZjXZkVW+p35hcKZHaX8pBljWUV4i0fGv0IyOsrec20o4juGyiJbwPabJiPG14hs55uHBRXEmQGQBgcyAzEw4HMQDwcyAzEw4HMQDwcyAzEw4HMQDwcyAzEw4HMQDwcyAzEw4HMQDwcyAzEw4HMQDwcyAzEw4HMQDwcyAzEw4HMQDycmcwIIjtEfwHscD0J36x+sQAAAABJRU5ErkJggg==" InformativeScreenshot="7caa22b986d32f0623f6c8d8c19a45d9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Your store. Login' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73e09ce5-e516-4bdf-9d16-51b12248477e" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://admin-demo.nopcommerce.com/admin/" DesignTimeRectangle="1731, 107, 99, 50" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' parentid='navbarText' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' parentid='navbarText' tag='A' type='' class='nav-link' check:innerText='Logout' /&gt;" Guid="096baf45-7053-44bf-ab78-8f273ed73261" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGcAAAA2CAYAAADak4erAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQGSURBVHhe7ZnfSxtLFMfvH+WTTz76JiUvgbwEIQS2cCshUKW5pa0EL0EsEgyhl1CDGCQgC2WRLZIQsuIiW9o/6dv5tbuTdZur1NgTPQ+fl5mzM+v5ZGbOrH+trK6BoQnLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIQzLIcxi5RQdOFs1lIs5fcz/slg5Rz6+ff8B7yinbxmptdDptvAqr28BsJz7oP4eH4d5fQuA5dyD+uD6GcrZqGHvxEdw80PFf7uawu028CIndv11D+5IJknERRHC0MJtp7HFBjruFEGkxwynPo73a1i3xlpZbcPNPqdo4PjSbm/iP8/H2Lxf7nwL4M/L2XiP06n8oyOM3YHY0/s4vdDJDy+6KNuxb4YIpJSJh8N3NdT/HcCXCYuu4YvkeZ+bOq7ahacSKdrP+mLMAdxJpMYMzt5bgkScHE/Mk8yhEO90ZbdrOX78nnIue74F8cfl7JxpEX7XsdoLSbt3VEna977I5IzQ2UyfX/ngIhRx7n7cVsHhhRZz+raQxq066Hw17W/itrvK0eh3ejbbWgvDUCQhdLGb7dvswZeJu+yjZNpU0q+G2LHjTILlitDP9W89l2BEhuct08Zy5sj5VXIkJkGWjN1zuTXlrxzvyKwSs/UlsmYw833tma2N5fyeHHtVxWfJxMX+Tg3Oux48GTMVAjdMzF3kJKuK5cyR8xGurKYmAzi/6hOJr8dtpngIptcIZd9NhMDroW5/gdgaYCwT/uVj2pbt8+Kks5w5cgrYV4d89vBeQ7k7Us+OT7aTNnXPuHXmZNnG8USMGYntr2q3p0WGexDPlf447Fv/+ltTFebKEe+6k7YtkkeRMz7viXI2i/kMEm9VN1OcHjTUt7h/2p5Ojr1dCfQl8Bpuu6niEqqlmXmT5F756IiS29lqYPdkpIsBkfC0PK+YCi6Cf9JCXc7dFfctUZoHslDJyCl90j+Y4KyFctVBvZ69Nz0sjyInn3R7kBdLdXZY/eHlEHszv3zBhvilm4vgLW5GOLZWX7k11HcgK0ZtgZZsRU1UhXacHOdDSVeG2e1ObqtyVcaxeVXmA7JYOffkRVWvhEp5dovTFLDnimpNrqZiBRVr5dQPXL1Sbp1dBZRe6pj5X8ZLKKuxnNyvErPEY/6NUlb0A0NKzlzM/cXv5okzB7hdPDwBlkdOXFmJO4oz84stwBHnhDxPxv20eHgKLJGcNbwSB7KUID94Bpc+vIup+VgqD/TmHbak5WKp5CiK29htW1XfQfPJ/qd1+eQ8I1gOYVgOYVgOYVgOYVgOYVgOYVgOYVgOYVgOYVgOYVgOYVgOYVgOWdbwE6C5V6gPde5JAAAAAElFTkSuQmCC" InformativeScreenshot="94d9765e998f3edd3b0dc9038f61cff7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard / nopCommerce administration' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGDSURBVDhPxdI/KMRhHMfxc+dEicWVMpBCDI7kTxImkeHoBjopBhaDmSvJ4E8Kg0mxSDEZZJCSP6XzZ1FKBlwxGMwWwvtz9310FoPFU6/7PX9+v+893+f5ev6llcTiafDraVO/N17MRyl8yMUEdjFsr3xHzbRnAUbQhBqc4wmt6ME7PnFqnycCdGIP3ViHXtjEuPVfoID1OMMJQu7jLOzjFX3Yxh3CKMYY2qAUtMMyBOF3AbzoQggZ0GIDNF+LefRCH7fgAg+IugAVWEE/6nCJIyh/vawUbqGzWbNx8gz4SYfLWYsz1r9CM5SKxhvQIQ/hEdeIKIDymsYBtF3tYBHaqlLQM4KA7Vb3X41yeN1EFYqgHLWom8hGADrAORRagA4cQ7cQ1kQUz1hCI+LQPQ9iCi7fSeQgljJ3owD3NljGqPXfMIAtG39Aa6pCFZULcKgAyl8HpFKthEp0Fvq3dqg+FpCXksIOVhHUhG4hWRA0+jppn/VdeSfGrjFWrfyY+2PzeL4ANS6fc8VrUkgAAAAASUVORK5CYII=" InformativeScreenshot="f1800eec235eed492700b094f675e9c0.png" Selector="&lt;html app='chrome.exe' title='Your store. Login' /&gt;" Url="https://admin-demo.nopcommerce.com/login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
