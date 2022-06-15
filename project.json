@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.108979305",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -42,19 +42,19 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "fa8e4833-7bb5-4fef-b77a-e39f0bb2ff86",
         "testCaseType": "TestCase",
         "fileName": "Login\\TC_001_Login_Functionality.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "703bd7be-3a1e-47a0-afe1-ad560ae1b066",
         "testCaseType": "TestCase",
         "fileName": "Login\\TC_002_Login_Functionality.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "a7620d56-dbd0-4bdb-b2a3-9993b111589f",
         "testCaseType": "TestCase",
         "fileName": "Login\\TC_003_Login_Functionality.xaml"
